@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.hi {
+  float: right;
+}
+
+.popoverbtn {
+  background: none;
+  color: black;
+  border: none;
+  padding: 0;
+}
+
+.popoverbtn:focus {
+  background: none;
+  color: black;
+  border: none;
+  padding: 0;
+}
+
+.popoverbtn:hover {
+  background: none;
+  color: black;
+  border: none;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
