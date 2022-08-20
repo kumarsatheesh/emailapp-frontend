@@ -27,7 +27,7 @@ export default function App(Props) {
             {Props.userlist && Props.userlist.map(e => (<li key={e._id} onClick={() => Props.onUserClick(e._id)}>
               <img src={config.API + "/images/user/" + e.profileImage} />
               <a >{e.name}</a>
-              <span style={{display:"block",fontSize:"11px"}}>{e email}</span>
+              <span style={{display:"block",fontSize:"11px"}}>{e.email}</span>
             </li>))
             }
           </ul>
